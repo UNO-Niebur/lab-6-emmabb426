@@ -4,7 +4,7 @@
 #Assignment: Word Count
 
 def main():
-  #file_name = input("File (.txt) to open: ")
+  
   while True:
     file_name = input("File (.txt) to open: ")
     try:
@@ -32,6 +32,7 @@ def main():
 
     except FileNotFoundError:
       print("Error: The file could not be found. Please try again.")
+
     except (KeyboardInterrupt, SystemExit):
       print("Exiting program.")
       break
