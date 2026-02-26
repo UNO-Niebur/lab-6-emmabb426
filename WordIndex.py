@@ -1,7 +1,7 @@
 #WordIndex.py
-#Name:
-#Date:
-#Assignment:
+#Name: Emma Barnes
+#Date: 02/26/2026
+#Assignment: Word Index
 
 def main():
   while True:
